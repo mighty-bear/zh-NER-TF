@@ -1,0 +1,293 @@
+2023-01-31 18:16:18,177:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2023-01-31 18:16:18,178:WARNING: From D:\github\zh-NER-TF\model.py:44: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2023-01-31 18:16:18,178:WARNING: From D:\github\zh-NER-TF\model.py:44: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2023-01-31 18:16:18,190:WARNING: From D:\github\zh-NER-TF\model.py:52: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2023-01-31 18:16:18,190:WARNING: From D:\github\zh-NER-TF\model.py:52: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2023-01-31 18:16:18,215:WARNING: From D:\github\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2023-01-31 18:16:18,215:WARNING: From D:\github\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2023-01-31 18:16:18,226:WARNING: From D:\github\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2023-01-31 18:16:18,226:WARNING: From D:\github\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2023-01-31 18:16:18,227:WARNING: From D:\github\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2023-01-31 18:16:18,227:WARNING: From D:\github\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2023-01-31 18:16:18,228:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\ops\rnn.py:464: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2023-01-31 18:16:18,228:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\ops\rnn.py:464: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2023-01-31 18:16:18,317:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\ops\init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-31 18:16:18,317:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\ops\init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-31 18:16:18,327:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py:961: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-31 18:16:18,327:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py:961: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-31 18:16:18,355:WARNING: Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x0000026701C01828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x0000026701C01828>>: AttributeError: module 'gast' has no attribute 'Index'
+2023-01-31 18:16:18,355:WARNING: Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x0000026701C01828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x0000026701C01828>>: AttributeError: module 'gast' has no attribute 'Index'
+2023-01-31 18:16:18,370:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\ops\rnn.py:244: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2023-01-31 18:16:18,370:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\ops\rnn.py:244: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2023-01-31 18:16:18,500:WARNING: Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000267762325F8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000267762325F8>>: AttributeError: module 'gast' has no attribute 'Index'
+2023-01-31 18:16:18,500:WARNING: Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000267762325F8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000267762325F8>>: AttributeError: module 'gast' has no attribute 'Index'
+2023-01-31 18:16:18,549:WARNING: From D:\github\zh-NER-TF\model.py:76: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2023-01-31 18:16:18,549:WARNING: From D:\github\zh-NER-TF\model.py:76: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2023-01-31 18:16:18,811:WARNING: From D:\github\zh-NER-TF\model.py:106: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2023-01-31 18:16:18,811:WARNING: From D:\github\zh-NER-TF\model.py:106: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2023-01-31 18:16:18,816:WARNING: From D:\github\zh-NER-TF\model.py:117: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2023-01-31 18:16:18,816:WARNING: From D:\github\zh-NER-TF\model.py:117: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2023-01-31 18:16:19,929:WARNING: From D:\github\zh-NER-TF\model.py:136: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2023-01-31 18:16:19,929:WARNING: From D:\github\zh-NER-TF\model.py:136: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2023-01-31 18:16:19,931:WARNING: From D:\github\zh-NER-TF\model.py:154: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2023-01-31 18:16:19,931:WARNING: From D:\github\zh-NER-TF\model.py:154: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2023-01-31 18:16:20,220:WARNING: From D:\github\zh-NER-TF\model.py:144: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2023-01-31 18:16:20,220:WARNING: From D:\github\zh-NER-TF\model.py:144: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2023-01-31 18:16:20,222:WARNING: From D:\github\zh-NER-TF\model.py:145: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2023-01-31 18:16:20,222:WARNING: From D:\github\zh-NER-TF\model.py:145: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2023-01-31 18:16:24,797:INFO: 2023-01-31 18:16:23 epoch 1, step 1, loss: 73.07, global_step: 1
+2023-01-31 18:16:24,797:INFO: 2023-01-31 18:16:23 epoch 1, step 1, loss: 73.07, global_step: 1
+2023-01-31 18:19:55,336:INFO: 2023-01-31 18:16:23 epoch 1, step 300, loss: 6.992, global_step: 300
+2023-01-31 18:19:55,336:INFO: 2023-01-31 18:16:23 epoch 1, step 300, loss: 6.992, global_step: 300
+2023-01-31 18:23:19,580:INFO: 2023-01-31 18:16:23 epoch 1, step 600, loss: 5.095, global_step: 600
+2023-01-31 18:23:19,580:INFO: 2023-01-31 18:16:23 epoch 1, step 600, loss: 5.095, global_step: 600
+2023-01-31 18:25:20,520:INFO: 2023-01-31 18:16:23 epoch 1, step 792, loss: 5.861, global_step: 792
+2023-01-31 18:25:20,520:INFO: 2023-01-31 18:16:23 epoch 1, step 792, loss: 5.861, global_step: 792
+2023-01-31 18:25:22,338:INFO: ===========validation / test===========
+2023-01-31 18:25:22,338:INFO: ===========validation / test===========
+2023-01-31 18:25:40,754:INFO: 2023-01-31 18:25:40 epoch 2, step 1, loss: 3.616, global_step: 793
+2023-01-31 18:25:40,754:INFO: 2023-01-31 18:25:40 epoch 2, step 1, loss: 3.616, global_step: 793
+2023-01-31 18:28:45,168:INFO: 2023-01-31 18:25:40 epoch 2, step 300, loss: 3.132, global_step: 1092
+2023-01-31 18:28:45,168:INFO: 2023-01-31 18:25:40 epoch 2, step 300, loss: 3.132, global_step: 1092
+2023-01-31 18:31:51,107:INFO: 2023-01-31 18:25:40 epoch 2, step 600, loss: 2.292, global_step: 1392
+2023-01-31 18:31:51,107:INFO: 2023-01-31 18:25:40 epoch 2, step 600, loss: 2.292, global_step: 1392
+2023-01-31 18:33:47,784:INFO: 2023-01-31 18:25:40 epoch 2, step 792, loss: 2.641, global_step: 1584
+2023-01-31 18:33:47,784:INFO: 2023-01-31 18:25:40 epoch 2, step 792, loss: 2.641, global_step: 1584
+2023-01-31 18:33:49,716:INFO: ===========validation / test===========
+2023-01-31 18:33:49,716:INFO: ===========validation / test===========
+2023-01-31 18:34:07,551:INFO: 2023-01-31 18:34:06 epoch 3, step 1, loss: 2.498, global_step: 1585
+2023-01-31 18:34:07,551:INFO: 2023-01-31 18:34:06 epoch 3, step 1, loss: 2.498, global_step: 1585
+2023-01-31 18:37:10,063:INFO: 2023-01-31 18:34:06 epoch 3, step 300, loss: 2.637, global_step: 1884
+2023-01-31 18:37:10,063:INFO: 2023-01-31 18:34:06 epoch 3, step 300, loss: 2.637, global_step: 1884
+2023-01-31 18:40:13,789:INFO: 2023-01-31 18:34:06 epoch 3, step 600, loss: 1.825, global_step: 2184
+2023-01-31 18:40:13,789:INFO: 2023-01-31 18:34:06 epoch 3, step 600, loss: 1.825, global_step: 2184
+2023-01-31 18:42:12,393:INFO: 2023-01-31 18:34:06 epoch 3, step 792, loss: 1.864, global_step: 2376
+2023-01-31 18:42:12,393:INFO: 2023-01-31 18:34:06 epoch 3, step 792, loss: 1.864, global_step: 2376
+2023-01-31 18:42:14,143:INFO: ===========validation / test===========
+2023-01-31 18:42:14,143:INFO: ===========validation / test===========
+2023-01-31 18:42:32,202:INFO: 2023-01-31 18:42:31 epoch 4, step 1, loss: 1.78, global_step: 2377
+2023-01-31 18:42:32,202:INFO: 2023-01-31 18:42:31 epoch 4, step 1, loss: 1.78, global_step: 2377
+2023-01-31 18:45:32,883:INFO: 2023-01-31 18:42:31 epoch 4, step 300, loss: 1.139, global_step: 2676
+2023-01-31 18:45:32,883:INFO: 2023-01-31 18:42:31 epoch 4, step 300, loss: 1.139, global_step: 2676
+2023-01-31 18:48:34,270:INFO: 2023-01-31 18:42:31 epoch 4, step 600, loss: 1.09, global_step: 2976
+2023-01-31 18:48:34,270:INFO: 2023-01-31 18:42:31 epoch 4, step 600, loss: 1.09, global_step: 2976
+2023-01-31 18:50:31,076:INFO: 2023-01-31 18:42:31 epoch 4, step 792, loss: 1.013, global_step: 3168
+2023-01-31 18:50:31,076:INFO: 2023-01-31 18:42:31 epoch 4, step 792, loss: 1.013, global_step: 3168
+2023-01-31 18:50:34,032:INFO: ===========validation / test===========
+2023-01-31 18:50:34,032:INFO: ===========validation / test===========
+2023-01-31 18:50:51,962:INFO: 2023-01-31 18:50:51 epoch 5, step 1, loss: 1.18, global_step: 3169
+2023-01-31 18:50:51,962:INFO: 2023-01-31 18:50:51 epoch 5, step 1, loss: 1.18, global_step: 3169
+2023-01-31 18:53:54,685:INFO: 2023-01-31 18:50:51 epoch 5, step 300, loss: 1.54, global_step: 3468
+2023-01-31 18:53:54,685:INFO: 2023-01-31 18:50:51 epoch 5, step 300, loss: 1.54, global_step: 3468
+2023-01-31 18:56:58,171:INFO: 2023-01-31 18:50:51 epoch 5, step 600, loss: 0.9195, global_step: 3768
+2023-01-31 18:56:58,171:INFO: 2023-01-31 18:50:51 epoch 5, step 600, loss: 0.9195, global_step: 3768
+2023-01-31 18:58:55,277:INFO: 2023-01-31 18:50:51 epoch 5, step 792, loss: 1.108, global_step: 3960
+2023-01-31 18:58:55,277:INFO: 2023-01-31 18:50:51 epoch 5, step 792, loss: 1.108, global_step: 3960
+2023-01-31 18:58:57,027:INFO: ===========validation / test===========
+2023-01-31 18:58:57,027:INFO: ===========validation / test===========
+2023-01-31 18:59:14,880:INFO: 2023-01-31 18:59:14 epoch 6, step 1, loss: 1.064, global_step: 3961
+2023-01-31 18:59:14,880:INFO: 2023-01-31 18:59:14 epoch 6, step 1, loss: 1.064, global_step: 3961
+2023-01-31 19:02:17,043:INFO: 2023-01-31 18:59:14 epoch 6, step 300, loss: 1.155, global_step: 4260
+2023-01-31 19:02:17,043:INFO: 2023-01-31 18:59:14 epoch 6, step 300, loss: 1.155, global_step: 4260
+2023-01-31 19:05:19,977:INFO: 2023-01-31 18:59:14 epoch 6, step 600, loss: 1.189, global_step: 4560
+2023-01-31 19:05:19,977:INFO: 2023-01-31 18:59:14 epoch 6, step 600, loss: 1.189, global_step: 4560
+2023-01-31 19:07:17,377:INFO: 2023-01-31 18:59:14 epoch 6, step 792, loss: 0.8114, global_step: 4752
+2023-01-31 19:07:17,377:INFO: 2023-01-31 18:59:14 epoch 6, step 792, loss: 0.8114, global_step: 4752
+2023-01-31 19:07:17,834:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\training\saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2023-01-31 19:07:17,834:WARNING: From C:\Users\MSI-GE75\anaconda3\envs\python36-tf114\lib\site-packages\tensorflow\python\training\saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2023-01-31 19:07:19,607:INFO: ===========validation / test===========
+2023-01-31 19:07:19,607:INFO: ===========validation / test===========
+2023-01-31 19:07:37,171:INFO: 2023-01-31 19:07:36 epoch 7, step 1, loss: 1.296, global_step: 4753
+2023-01-31 19:07:37,171:INFO: 2023-01-31 19:07:36 epoch 7, step 1, loss: 1.296, global_step: 4753
+2023-01-31 19:10:37,796:INFO: 2023-01-31 19:07:36 epoch 7, step 300, loss: 0.5941, global_step: 5052
+2023-01-31 19:10:37,796:INFO: 2023-01-31 19:07:36 epoch 7, step 300, loss: 0.5941, global_step: 5052
+2023-01-31 19:13:41,436:INFO: 2023-01-31 19:07:36 epoch 7, step 600, loss: 1.081, global_step: 5352
+2023-01-31 19:13:41,436:INFO: 2023-01-31 19:07:36 epoch 7, step 600, loss: 1.081, global_step: 5352
+2023-01-31 19:15:38,943:INFO: 2023-01-31 19:07:36 epoch 7, step 792, loss: 0.4108, global_step: 5544
+2023-01-31 19:15:38,943:INFO: 2023-01-31 19:07:36 epoch 7, step 792, loss: 0.4108, global_step: 5544
+2023-01-31 19:15:40,888:INFO: ===========validation / test===========
+2023-01-31 19:15:40,888:INFO: ===========validation / test===========
+2023-01-31 19:15:58,730:INFO: 2023-01-31 19:15:58 epoch 8, step 1, loss: 0.711, global_step: 5545
+2023-01-31 19:15:58,730:INFO: 2023-01-31 19:15:58 epoch 8, step 1, loss: 0.711, global_step: 5545
+2023-01-31 19:18:59,153:INFO: 2023-01-31 19:15:58 epoch 8, step 300, loss: 0.8163, global_step: 5844
+2023-01-31 19:18:59,153:INFO: 2023-01-31 19:15:58 epoch 8, step 300, loss: 0.8163, global_step: 5844
+2023-01-31 19:21:59,707:INFO: 2023-01-31 19:15:58 epoch 8, step 600, loss: 0.803, global_step: 6144
+2023-01-31 19:21:59,707:INFO: 2023-01-31 19:15:58 epoch 8, step 600, loss: 0.803, global_step: 6144
+2023-01-31 19:23:55,095:INFO: 2023-01-31 19:15:58 epoch 8, step 792, loss: 0.9279, global_step: 6336
+2023-01-31 19:23:55,095:INFO: 2023-01-31 19:15:58 epoch 8, step 792, loss: 0.9279, global_step: 6336
+2023-01-31 19:23:57,005:INFO: ===========validation / test===========
+2023-01-31 19:23:57,005:INFO: ===========validation / test===========
+2023-01-31 19:24:14,777:INFO: 2023-01-31 19:24:14 epoch 9, step 1, loss: 0.5366, global_step: 6337
+2023-01-31 19:24:14,777:INFO: 2023-01-31 19:24:14 epoch 9, step 1, loss: 0.5366, global_step: 6337
+2023-01-31 19:27:15,176:INFO: 2023-01-31 19:24:14 epoch 9, step 300, loss: 0.3003, global_step: 6636
+2023-01-31 19:27:15,176:INFO: 2023-01-31 19:24:14 epoch 9, step 300, loss: 0.3003, global_step: 6636
+2023-01-31 19:30:15,594:INFO: 2023-01-31 19:24:14 epoch 9, step 600, loss: 0.8661, global_step: 6936
+2023-01-31 19:30:15,594:INFO: 2023-01-31 19:24:14 epoch 9, step 600, loss: 0.8661, global_step: 6936
+2023-01-31 19:32:11,428:INFO: 2023-01-31 19:24:14 epoch 9, step 792, loss: 0.2429, global_step: 7128
+2023-01-31 19:32:11,428:INFO: 2023-01-31 19:24:14 epoch 9, step 792, loss: 0.2429, global_step: 7128
+2023-01-31 19:32:13,346:INFO: ===========validation / test===========
+2023-01-31 19:32:13,346:INFO: ===========validation / test===========
+2023-01-31 19:32:31,337:INFO: 2023-01-31 19:32:30 epoch 10, step 1, loss: 0.4531, global_step: 7129
+2023-01-31 19:32:31,337:INFO: 2023-01-31 19:32:30 epoch 10, step 1, loss: 0.4531, global_step: 7129
+2023-01-31 19:35:32,055:INFO: 2023-01-31 19:32:30 epoch 10, step 300, loss: 0.4211, global_step: 7428
+2023-01-31 19:35:32,055:INFO: 2023-01-31 19:32:30 epoch 10, step 300, loss: 0.4211, global_step: 7428
+2023-01-31 19:38:33,755:INFO: 2023-01-31 19:32:30 epoch 10, step 600, loss: 0.3301, global_step: 7728
+2023-01-31 19:38:33,755:INFO: 2023-01-31 19:32:30 epoch 10, step 600, loss: 0.3301, global_step: 7728
+2023-01-31 19:40:29,480:INFO: 2023-01-31 19:32:30 epoch 10, step 792, loss: 0.2477, global_step: 7920
+2023-01-31 19:40:29,480:INFO: 2023-01-31 19:32:30 epoch 10, step 792, loss: 0.2477, global_step: 7920
+2023-01-31 19:40:31,288:INFO: ===========validation / test===========
+2023-01-31 19:40:31,288:INFO: ===========validation / test===========
+2023-01-31 19:40:49,175:INFO: 2023-01-31 19:40:48 epoch 11, step 1, loss: 0.9315, global_step: 7921
+2023-01-31 19:40:49,175:INFO: 2023-01-31 19:40:48 epoch 11, step 1, loss: 0.9315, global_step: 7921
+2023-01-31 19:43:51,894:INFO: 2023-01-31 19:40:48 epoch 11, step 300, loss: 0.6214, global_step: 8220
+2023-01-31 19:43:51,894:INFO: 2023-01-31 19:40:48 epoch 11, step 300, loss: 0.6214, global_step: 8220
+2023-01-31 19:46:53,187:INFO: 2023-01-31 19:40:48 epoch 11, step 600, loss: 0.4033, global_step: 8520
+2023-01-31 19:46:53,187:INFO: 2023-01-31 19:40:48 epoch 11, step 600, loss: 0.4033, global_step: 8520
+2023-01-31 19:48:48,179:INFO: 2023-01-31 19:40:48 epoch 11, step 792, loss: 0.2459, global_step: 8712
+2023-01-31 19:48:48,179:INFO: 2023-01-31 19:40:48 epoch 11, step 792, loss: 0.2459, global_step: 8712
+2023-01-31 19:48:49,879:INFO: ===========validation / test===========
+2023-01-31 19:48:49,879:INFO: ===========validation / test===========
+2023-01-31 19:49:07,249:INFO: 2023-01-31 19:49:06 epoch 12, step 1, loss: 0.228, global_step: 8713
+2023-01-31 19:49:07,249:INFO: 2023-01-31 19:49:06 epoch 12, step 1, loss: 0.228, global_step: 8713
+2023-01-31 19:52:07,423:INFO: 2023-01-31 19:49:06 epoch 12, step 300, loss: 0.3278, global_step: 9012
+2023-01-31 19:52:07,423:INFO: 2023-01-31 19:49:06 epoch 12, step 300, loss: 0.3278, global_step: 9012
+2023-01-31 19:55:07,906:INFO: 2023-01-31 19:49:06 epoch 12, step 600, loss: 0.4489, global_step: 9312
+2023-01-31 19:55:07,906:INFO: 2023-01-31 19:49:06 epoch 12, step 600, loss: 0.4489, global_step: 9312
+2023-01-31 19:57:03,937:INFO: 2023-01-31 19:49:06 epoch 12, step 792, loss: 0.06672, global_step: 9504
+2023-01-31 19:57:03,937:INFO: 2023-01-31 19:49:06 epoch 12, step 792, loss: 0.06672, global_step: 9504
+2023-01-31 19:57:06,401:INFO: ===========validation / test===========
+2023-01-31 19:57:06,401:INFO: ===========validation / test===========
+2023-01-31 19:57:24,008:INFO: 2023-01-31 19:57:23 epoch 13, step 1, loss: 0.4531, global_step: 9505
+2023-01-31 19:57:24,008:INFO: 2023-01-31 19:57:23 epoch 13, step 1, loss: 0.4531, global_step: 9505
+2023-01-31 20:00:23,843:INFO: 2023-01-31 19:57:23 epoch 13, step 300, loss: 0.495, global_step: 9804
+2023-01-31 20:00:23,843:INFO: 2023-01-31 19:57:23 epoch 13, step 300, loss: 0.495, global_step: 9804
+2023-01-31 20:03:24,487:INFO: 2023-01-31 19:57:23 epoch 13, step 600, loss: 0.2898, global_step: 10104
+2023-01-31 20:03:24,487:INFO: 2023-01-31 19:57:23 epoch 13, step 600, loss: 0.2898, global_step: 10104
+2023-01-31 20:05:20,395:INFO: 2023-01-31 19:57:23 epoch 13, step 792, loss: 0.4869, global_step: 10296
+2023-01-31 20:05:20,395:INFO: 2023-01-31 19:57:23 epoch 13, step 792, loss: 0.4869, global_step: 10296
+2023-01-31 20:05:22,162:INFO: ===========validation / test===========
+2023-01-31 20:05:22,162:INFO: ===========validation / test===========
+2023-01-31 20:05:39,520:INFO: 2023-01-31 20:05:38 epoch 14, step 1, loss: 0.4476, global_step: 10297
+2023-01-31 20:05:39,520:INFO: 2023-01-31 20:05:38 epoch 14, step 1, loss: 0.4476, global_step: 10297
+2023-01-31 20:08:39,848:INFO: 2023-01-31 20:05:38 epoch 14, step 300, loss: 0.7365, global_step: 10596
+2023-01-31 20:08:39,848:INFO: 2023-01-31 20:05:38 epoch 14, step 300, loss: 0.7365, global_step: 10596
+2023-01-31 20:11:41,316:INFO: 2023-01-31 20:05:38 epoch 14, step 600, loss: 0.3175, global_step: 10896
+2023-01-31 20:11:41,316:INFO: 2023-01-31 20:05:38 epoch 14, step 600, loss: 0.3175, global_step: 10896
+2023-01-31 20:13:36,396:INFO: 2023-01-31 20:05:38 epoch 14, step 792, loss: 0.5932, global_step: 11088
+2023-01-31 20:13:36,396:INFO: 2023-01-31 20:05:38 epoch 14, step 792, loss: 0.5932, global_step: 11088
+2023-01-31 20:13:38,230:INFO: ===========validation / test===========
+2023-01-31 20:13:38,230:INFO: ===========validation / test===========
+2023-01-31 20:13:55,862:INFO: 2023-01-31 20:13:55 epoch 15, step 1, loss: 0.1744, global_step: 11089
+2023-01-31 20:13:55,862:INFO: 2023-01-31 20:13:55 epoch 15, step 1, loss: 0.1744, global_step: 11089
+2023-01-31 20:16:54,666:INFO: 2023-01-31 20:13:55 epoch 15, step 300, loss: 0.4067, global_step: 11388
+2023-01-31 20:16:54,666:INFO: 2023-01-31 20:13:55 epoch 15, step 300, loss: 0.4067, global_step: 11388
+2023-01-31 20:19:56,650:INFO: 2023-01-31 20:13:55 epoch 15, step 600, loss: 0.2368, global_step: 11688
+2023-01-31 20:19:56,650:INFO: 2023-01-31 20:13:55 epoch 15, step 600, loss: 0.2368, global_step: 11688
+2023-01-31 20:21:50,863:INFO: 2023-01-31 20:13:55 epoch 15, step 792, loss: 0.329, global_step: 11880
+2023-01-31 20:21:50,863:INFO: 2023-01-31 20:13:55 epoch 15, step 792, loss: 0.329, global_step: 11880
+2023-01-31 20:21:53,421:INFO: ===========validation / test===========
+2023-01-31 20:21:53,421:INFO: ===========validation / test===========
+2023-01-31 20:22:10,770:INFO: 2023-01-31 20:22:10 epoch 16, step 1, loss: 0.2808, global_step: 11881
+2023-01-31 20:22:10,770:INFO: 2023-01-31 20:22:10 epoch 16, step 1, loss: 0.2808, global_step: 11881
+2023-01-31 20:25:09,945:INFO: 2023-01-31 20:22:10 epoch 16, step 300, loss: 0.2796, global_step: 12180
+2023-01-31 20:25:09,945:INFO: 2023-01-31 20:22:10 epoch 16, step 300, loss: 0.2796, global_step: 12180
+2023-01-31 20:28:11,480:INFO: 2023-01-31 20:22:10 epoch 16, step 600, loss: 0.1814, global_step: 12480
+2023-01-31 20:28:11,480:INFO: 2023-01-31 20:22:10 epoch 16, step 600, loss: 0.1814, global_step: 12480
+2023-01-31 20:30:07,666:INFO: 2023-01-31 20:22:10 epoch 16, step 792, loss: 0.1099, global_step: 12672
+2023-01-31 20:30:07,666:INFO: 2023-01-31 20:22:10 epoch 16, step 792, loss: 0.1099, global_step: 12672
+2023-01-31 20:30:09,462:INFO: ===========validation / test===========
+2023-01-31 20:30:09,462:INFO: ===========validation / test===========
+2023-01-31 20:30:26,839:INFO: 2023-01-31 20:30:26 epoch 17, step 1, loss: 0.2002, global_step: 12673
+2023-01-31 20:30:26,839:INFO: 2023-01-31 20:30:26 epoch 17, step 1, loss: 0.2002, global_step: 12673
+2023-01-31 20:33:24,930:INFO: 2023-01-31 20:30:26 epoch 17, step 300, loss: 0.3757, global_step: 12972
+2023-01-31 20:33:24,930:INFO: 2023-01-31 20:30:26 epoch 17, step 300, loss: 0.3757, global_step: 12972
+2023-01-31 20:36:25,833:INFO: 2023-01-31 20:30:26 epoch 17, step 600, loss: 0.5206, global_step: 13272
+2023-01-31 20:36:25,833:INFO: 2023-01-31 20:30:26 epoch 17, step 600, loss: 0.5206, global_step: 13272
+2023-01-31 20:38:20,228:INFO: 2023-01-31 20:30:26 epoch 17, step 792, loss: 0.1056, global_step: 13464
+2023-01-31 20:38:20,228:INFO: 2023-01-31 20:30:26 epoch 17, step 792, loss: 0.1056, global_step: 13464
+2023-01-31 20:38:22,084:INFO: ===========validation / test===========
+2023-01-31 20:38:22,084:INFO: ===========validation / test===========
+2023-01-31 20:38:39,298:INFO: 2023-01-31 20:38:38 epoch 18, step 1, loss: 0.1883, global_step: 13465
+2023-01-31 20:38:39,298:INFO: 2023-01-31 20:38:38 epoch 18, step 1, loss: 0.1883, global_step: 13465
+2023-01-31 20:41:37,187:INFO: 2023-01-31 20:38:38 epoch 18, step 300, loss: 0.1834, global_step: 13764
+2023-01-31 20:41:37,187:INFO: 2023-01-31 20:38:38 epoch 18, step 300, loss: 0.1834, global_step: 13764
+2023-01-31 20:44:37,972:INFO: 2023-01-31 20:38:38 epoch 18, step 600, loss: 0.3614, global_step: 14064
+2023-01-31 20:44:37,972:INFO: 2023-01-31 20:38:38 epoch 18, step 600, loss: 0.3614, global_step: 14064
+2023-01-31 20:46:32,932:INFO: 2023-01-31 20:38:38 epoch 18, step 792, loss: 0.1986, global_step: 14256
+2023-01-31 20:46:32,932:INFO: 2023-01-31 20:38:38 epoch 18, step 792, loss: 0.1986, global_step: 14256
+2023-01-31 20:46:34,826:INFO: ===========validation / test===========
+2023-01-31 20:46:34,826:INFO: ===========validation / test===========
+2023-01-31 20:46:52,597:INFO: 2023-01-31 20:46:51 epoch 19, step 1, loss: 0.1022, global_step: 14257
+2023-01-31 20:46:52,597:INFO: 2023-01-31 20:46:51 epoch 19, step 1, loss: 0.1022, global_step: 14257
+2023-01-31 20:49:51,598:INFO: 2023-01-31 20:46:51 epoch 19, step 300, loss: 0.2161, global_step: 14556
+2023-01-31 20:49:51,598:INFO: 2023-01-31 20:46:51 epoch 19, step 300, loss: 0.2161, global_step: 14556
+2023-01-31 20:52:51,286:INFO: 2023-01-31 20:46:51 epoch 19, step 600, loss: 0.4793, global_step: 14856
+2023-01-31 20:52:51,286:INFO: 2023-01-31 20:46:51 epoch 19, step 600, loss: 0.4793, global_step: 14856
+2023-01-31 20:54:46,571:INFO: 2023-01-31 20:46:51 epoch 19, step 792, loss: 0.2606, global_step: 15048
+2023-01-31 20:54:46,571:INFO: 2023-01-31 20:46:51 epoch 19, step 792, loss: 0.2606, global_step: 15048
+2023-01-31 20:54:48,309:INFO: ===========validation / test===========
+2023-01-31 20:54:48,309:INFO: ===========validation / test===========
+2023-01-31 20:55:05,831:INFO: 2023-01-31 20:55:05 epoch 20, step 1, loss: 0.07279, global_step: 15049
+2023-01-31 20:55:05,831:INFO: 2023-01-31 20:55:05 epoch 20, step 1, loss: 0.07279, global_step: 15049
+2023-01-31 20:58:05,852:INFO: 2023-01-31 20:55:05 epoch 20, step 300, loss: 0.3922, global_step: 15348
+2023-01-31 20:58:05,852:INFO: 2023-01-31 20:55:05 epoch 20, step 300, loss: 0.3922, global_step: 15348
+2023-01-31 21:01:08,785:INFO: 2023-01-31 20:55:05 epoch 20, step 600, loss: 0.3336, global_step: 15648
+2023-01-31 21:01:08,785:INFO: 2023-01-31 20:55:05 epoch 20, step 600, loss: 0.3336, global_step: 15648
+2023-01-31 21:03:05,945:INFO: 2023-01-31 20:55:05 epoch 20, step 792, loss: 0.2798, global_step: 15840
+2023-01-31 21:03:05,945:INFO: 2023-01-31 20:55:05 epoch 20, step 792, loss: 0.2798, global_step: 15840
+2023-01-31 21:03:07,839:INFO: ===========validation / test===========
+2023-01-31 21:03:07,839:INFO: ===========validation / test===========
+2023-01-31 21:03:25,524:INFO: 2023-01-31 21:03:24 epoch 21, step 1, loss: 0.05258, global_step: 15841
+2023-01-31 21:03:25,524:INFO: 2023-01-31 21:03:24 epoch 21, step 1, loss: 0.05258, global_step: 15841
+2023-01-31 21:06:25,729:INFO: 2023-01-31 21:03:24 epoch 21, step 300, loss: 0.1537, global_step: 16140
+2023-01-31 21:06:25,729:INFO: 2023-01-31 21:03:24 epoch 21, step 300, loss: 0.1537, global_step: 16140
